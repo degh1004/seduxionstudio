@@ -124,7 +124,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 /* background color */
 .bg-black{background: #000000;}
 .bg-dark {background-color: #1d1d21 !important;}
-.bg-blue {background-color: #03a9f5;}
+.bg-blue {background-color: #C948EA;}
 .bg-pink {background-color: #f033b5;}
 .bg-purple {background-color: #9556f5;}
 
@@ -137,14 +137,14 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 
 .gradient-bg2{
     background: #237afe;
-    background: -moz-linear-gradient(left, #237afe 2%, #03a9f5 82%);
-    background: -webkit-linear-gradient(left, #237afe 2%, #03a9f5 82%);
-    background: linear-gradient(to right, #237afe 2%, #03a9f5 82%);
+    background: -moz-linear-gradient(left, #237afe 2%, #C948EA 82%);
+    background: -webkit-linear-gradient(left, #237afe 2%, #C948EA 82%);
+    background: linear-gradient(to right, #237afe 2%, #C948EA 82%);
 }
 
 /* text-color */
 .main-color{color: #f033b5;}
-.alt-color{color: #03a9f5;}
+.alt-color{color: #C948EA;}
 
 /*Max Width*/
 .mx-570{
@@ -347,15 +347,15 @@ header a.logo img {max-width:130px; vertical-align: sub;}
     margin-right: auto;
 }
  .nav-box-round .navbar-nav .nav-link.active{
-    color: #00bcd4;
+    color: #C948EA;
 }
 header .nav-box-round .navbar-nav .nav-link.active span{
     width: 100%;
-    background-color: #00bcd4;
+    background-color: #C948EA;
 }
 
 header .nav-box-round .navbar-nav .nav-link:hover{
-    color: #00bcd4;
+    color: #C948EA;
 }
 
 
@@ -409,7 +409,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     position: fixed;
     right: 0;
     top: 0;
-    background: rgba(0, 188, 212, 0.89);
+    background: #C948EA;
     z-index: 1032;
     height: 100%;
     -webkit-transform: translate3d(0, 100%, 0);
