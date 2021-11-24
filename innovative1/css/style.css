@@ -1083,12 +1083,16 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     -moz-box-shadow: 0px 0px 10px 1px rgba(145, 140, 145, 0.35);
     box-shadow: 0px 0px 8px 1px rgba(145, 140, 145, 0.35);
     transition: .8s ease;
-}
-.feature-item:hover {
-    background-color: #C948EA ;
-    cursor: pointer;
-    border: solid 2px #C948EA;
     color: #FFFFFF;
+}
+
+
+.feature-item:hover {
+    background-color: #FFFFFF ;
+    cursor: pointer;
+    border: solid 2px #FFFFFF;
+    color: #c948ea;
+
 }
 
 .feature-item:nth-child(2){
@@ -1879,6 +1883,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
         left:0;
     }
 }
+
 
 
 
