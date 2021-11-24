@@ -1085,8 +1085,10 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     transition: .8s ease;
 }
 .feature-item:hover {
-    background-color: #FFFFFF;
+    background-color: #C948EA ;
     cursor: pointer;
+    border: solid 2px #C948EA;
+    color: #FFFFFF;
 }
 
 .feature-item:nth-child(2){
@@ -1115,7 +1117,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     transition: .8s ease;
 }
 .feature-item:hover .title,.feature-item:hover p{
-    color: #2b2b2b;
+    color: #FFFFFF;
 }
 .feature-item p{
     color: #fff;
