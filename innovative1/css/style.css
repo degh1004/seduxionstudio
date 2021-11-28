@@ -1568,7 +1568,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 .project-sec .project-area .project-detail .project-text{
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 15px;
     color: #FFFFFF;
     opacity: .8;
