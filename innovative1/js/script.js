@@ -35,7 +35,7 @@ jQuery(function ($) {
             $('header').removeClass('header-appear');
         }
     });
-
+/*
     //scroll to appear
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 500)
@@ -43,7 +43,7 @@ jQuery(function ($) {
         else
             $('.scroll-top-arrow').fadeOut('slow');
     });
-
+*/
     //Click event to scroll to top
     $(document).on('click', '.scroll-top-arrow', function () {
         $('html, body').animate({scrollTop: 0}, 800);
@@ -144,9 +144,9 @@ jQuery(function ($) {
 
     $('.projects').owlCarousel({
 
-        loop:false,
+        loop:true,
         margin:0,
-        slideSpeed: 5000,
+        slideSpeed: 1000,
         slideTransition:'linear',
         animateOut: 'slideOutRight',
         // animateIn: 'slideOutUp',
@@ -155,14 +155,20 @@ jQuery(function ($) {
         responsive:{
             0:{
                 autoplay:true,
-                autoplayTimeout:8000,
+                autoplayTimeout:5000,
                 autoplayHoverPause:true,
                 items:1
             },
             600:{
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
                 items:1
             },
             1000:{
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
                 items:1
             },
         }
