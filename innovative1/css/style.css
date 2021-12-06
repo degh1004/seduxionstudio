@@ -1111,7 +1111,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     vertical-align: middle;
     text-align: center;
     border-radius: 50px;
-    color: #fff;
+    color: #c948ea;
     transition: .8s ease;
 }
 
@@ -1121,7 +1121,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     transition: .8s ease;
 }
 .feature-item:hover .title,.feature-item:hover p{
-    color: #FFFFFF;
+    color: #2c34ea;
 }
 .feature-item p{
     color: #fff;
