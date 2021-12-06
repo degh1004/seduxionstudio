@@ -1262,7 +1262,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .pricing-sec .pricing-card{
     padding: 15px;
-    border-right: dashed 1px #FFFFFF;
+    /*border-right: dashed 1px #FFFFFF;*/
 }
 .pricing-sec .pricing-card-noborder{
     border-right: none;
